@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di immagini</title>
+</head>
+<body>
+    <div>
+        <form id = "prompt">
+            <label for="prompt-img">Inserisci un prompt per compilare un immagine</label>
+            <input type="text" id="text-input" name="text-input">
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+    <div id = "immagine" style="display:none;">
+        <img id = "imgGen" src="path/to/image.jpg" alt="Immagine" width="512" height="512">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
